@@ -2,7 +2,7 @@ import random
 bingo = []
 print('Projeto Bingo')
 print('_____________')
-rodar = input('Deseja seguir com o programa? s/n: ')
+rodar = input('Deseja seguir com o programa? s/n: ').lower()
 if rodar == 'n':
     print('Você preferiu não seguir com o programa! Programa encerrado.')
 
@@ -14,7 +14,7 @@ while rodar == 's':
 
     bingo.append(numero)
     print(f'Numero sorteado: {numero}')
-    continuar = input('Continuar? s/n: ')
+    continuar = input('Continuar? s/n: ').lower()
 
     if continuar == 'n':
         print('Programa encerrado!')
