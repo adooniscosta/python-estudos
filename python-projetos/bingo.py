@@ -2,7 +2,7 @@ import random
 bingo = []
 print('Projeto Bingo')
 print('_____________')
-rodar = input('Deseja seguir com o programa? s/n: ').lower()
+rodar = input('Deseja seguir com o programa? s/n: ')
 if rodar == 'n':
     print('Você preferiu não seguir com o programa! Programa encerrado.')
 
